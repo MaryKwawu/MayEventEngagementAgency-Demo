@@ -1,0 +1,15 @@
+.footer {
+  filter: drop-shadow(10px -10px 10px rgba(0, 0, 0, 0.1));
+  box-shadow: 10px -10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#footer {
+  background-color: rgb(224, 64, 251);
+  height: 50vh;
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 35%);
+  box-shadow: 10px -10px 20px rgba(0, 0, 0, 0.5);
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}

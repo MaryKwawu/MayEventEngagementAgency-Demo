@@ -1,0 +1,59 @@
+.protected-page {
+  height: 80vh;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2rem;
+  align-items: center;
+}
+
+.protected-image {
+  width: 30rem;
+  transition: transform 10s;
+}
+.protected-image:hover {
+  transform: scale(4.4);
+}
+
+.protected-image img {
+  object-fit: contain;
+  height: 60%;
+  /* width: 10rem; */
+  padding: 0rem 0rem;
+}
+
+.protected-content {
+  width: 50%;
+  padding: 2rem 2rem;
+  text-align: justify;
+  padding-left: 0;
+}
+
+.protected-content p {
+  font-size: 1.25rem;
+}
+
+.protected-page img {
+  border-radius: 3rem;
+  object-fit: cover;
+  width: 100%;
+  height: 25rem;
+}
+h1 {
+  font-style: oblique;
+  position: relative;
+  /* left: 50px; */
+  /* text-decoration: underline; */
+}
+h1::after {
+  content: "";
+  position: absolute;
+  width: 20rem;
+  height: 0.5rem;
+  display: block;
+  background-color: rgb(70, 66, 66);
+  /* left: calc(50% - 10rem); */
+  left: 2px;
+  bottom: -1rem;
+  border-radius: 50%;
+}

@@ -1,0 +1,36 @@
+.logo {
+  color: white;
+  font-size: 1.6rem;
+  font-style: oblique;
+  margin: 1.2rem 18rem 0rem 0rem;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0rem;
+}
+li {
+  list-style: none;
+  margin: 0 2rem;
+  padding-right: 3rem;
+  margin-bottom: 3.5rem;
+}
+#nav-bar {
+  width: 100%;
+  background-color: #aa00ff;
+  height: 5rem;
+}
+
+.navlink {
+  display: flex;
+}
+
+.nav {
+  margin-right: 2rem;
+  margin-top: 1.5rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}

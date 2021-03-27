@@ -1,0 +1,40 @@
+.home-page {
+  height: 80vh;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2rem;
+  align-items: center;
+}
+
+.home-image {
+  width: 30rem;
+  transition: transform 10s;
+}
+.home-image:hover {
+  transform: scale(4.4);
+}
+.home-image img {
+  object-fit: contain;
+  height: 60%;
+  /* width: 10rem; */
+  padding: 0rem 0rem;
+}
+
+.home-content {
+  width: 50%;
+  padding: 2rem 2rem;
+  text-align: justify;
+  padding-left: 0;
+}
+
+.home-content p {
+  font-size: 1.25rem;
+}
+
+.home-page img {
+  border-radius: 3rem;
+  object-fit: cover;
+  width: 100%;
+  height: 25rem;
+}

@@ -1,0 +1,41 @@
+.about-page {
+  height: 80vh;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2rem;
+  align-items: center;
+}
+
+.about-image {
+  width: 30rem;
+  transition: transform 10s;
+}
+.about-image:hover {
+  transform: scale(4.4);
+}
+
+.about-image img {
+  object-fit: contain;
+  height: 60%;
+  /* width: 10rem; */
+  padding: 0rem 0rem;
+}
+
+.about-content {
+  width: 50%;
+  padding: 2rem 2rem;
+  text-align: justify;
+  padding-left: 0;
+}
+
+.about-content p {
+  font-size: 1.25rem;
+}
+
+.about-page img {
+  border-radius: 3rem;
+  object-fit: cover;
+  width: 100%;
+  height: 25rem;
+}
