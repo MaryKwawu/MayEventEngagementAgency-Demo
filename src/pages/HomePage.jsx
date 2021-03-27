@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { UserContext } from "../context/UserContext";
+import { NavLink } from "react-router-dom";
 import "./Home.css";
 const HomePage = () => {
   const [user, setUser] = useContext(UserContext);
@@ -13,7 +14,12 @@ const HomePage = () => {
           look no further, May Event Engagement Agency is the best place to
           book.
         </p>
-        <button onClick={() => setUser("Home")}>change user</button>
+        {/* <button onClick={() => setUser("Home")}>change user</button> */}
+        <button>
+          <NavLink className="changeuser" to="/about">
+            Changeuser
+          </NavLink>
+        </button>
       </div>
       <div className="home-image">
         <img src="happy.jpg" alt="Home Page" />

@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import { UserContext } from "../context/UserContext";
 import { AuthContext } from "../context/AuthContext";
 import { useHistory } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Login.css";
 const LoginPage = () => {
   const [username, setUsername] = useState("");
@@ -55,6 +56,11 @@ const LoginPage = () => {
           </div>
           <br />
           <button type="submit">Login</button>
+          {/* <button>
+            <NavLink className="changeuser" to="/protected">
+              Changeuser
+            </NavLink>
+          </button> */}
         </form>
       </div>
       <div className="login-image">

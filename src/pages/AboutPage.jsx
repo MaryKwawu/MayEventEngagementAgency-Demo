@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { UserContext } from "../context/UserContext";
+import { NavLink } from "react-router-dom";
 import "./About.css";
 
 const AboutPage = () => {
@@ -13,7 +14,12 @@ const AboutPage = () => {
           engagement agency, where we create and deliver live experiences,
           strategic communications, videos and interactive content.
         </p>
-        <button onClick={() => setUser("AboutPage")}>changeuser</button>
+        {/* <button onClick={() => setUser("AboutPage")}>changeuser</button> */}
+        <button>
+          <NavLink className="changeuser" to="/contact">
+            Changeuser
+          </NavLink>
+        </button>
       </div>
       <div className="about-image">
         <img src="decor.jpg" alt="About Page" />

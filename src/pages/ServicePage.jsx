@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { UserContext } from "../context/UserContext";
+import { NavLink } from "react-router-dom";
 import "./service.css";
 const ServicePage = () => {
   const [user, setUser] = useContext(UserContext);
@@ -8,10 +9,15 @@ const ServicePage = () => {
       <div className="service-content">
         <h1>Service Page</h1>
         <p>
-          Our services are trush worthy and reliable. No delays and we are at
+          Our services are trust worthy and reliable. No delays and we are at
           your call.
         </p>
-        <button onClick={() => setUser("Service")}>Changeuser</button>
+        {/* <button onClick={() => setUser("Service")}>Changeuser</button> */}
+        <button>
+          <NavLink className="changeuser" to="/protected">
+            Changeuser
+          </NavLink>
+        </button>
       </div>
       <div className="service-image">
         <img src="cleaning.jpg" alt="Service Page" />

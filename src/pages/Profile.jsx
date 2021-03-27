@@ -1,6 +1,7 @@
 import { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import { UserContext } from "../context/UserContext";
+import { NavLink } from "react-router-dom";
 import "./Profile.css";
 
 const Profile = () => {
@@ -24,7 +25,12 @@ const Profile = () => {
           also Cleaning Service Agency ( we provide services for home, hotel,
           offices, banks, institution), we are just a phone call away.
         </p>
-        <button onClick={() => setUser("Profile")}>Change User</button>
+        {/* <button onClick={() => setUser("Profile")}>Change User</button> */}
+        <button>
+          <NavLink className="changeuser" to="/service">
+            Changeuser
+          </NavLink>
+        </button>
       </div>
       <div className="profile-image">
         <img src="profile.jpg" alt="profile-Page" />
