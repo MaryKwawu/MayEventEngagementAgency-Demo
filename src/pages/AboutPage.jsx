@@ -9,7 +9,7 @@ const AboutPage = () => {
       <div className="about-content">
         <h1>About Page</h1>
         <p>
-          BEHIND EVERY EVENT IS A GREAT STORY. May event agency is a creative
+          l BEHIND EVERY EVENT IS A GREAT STORY. May event agency is a creative
           engagement agency, where we create and deliver live experiences,
           strategic communications, videos and interactive content.
         </p>
