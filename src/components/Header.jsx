@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <nav id="nav-bar">
       <ul className="navlink">
-        <div className="logo">May Events Engagament Agency</div>
+        <div className="logo">May Events Engagement Agency</div>
 
         <li className="nav">
           <NavLink to="/">Home</NavLink>
